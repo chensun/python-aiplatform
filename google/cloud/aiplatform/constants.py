@@ -32,7 +32,7 @@ SUPPORTED_REGIONS = {
     "us-west1",
 }
 
-API_BASE_PATH = "aiplatform.googleapis.com"
+API_BASE_PATH = "autopush-aiplatform.googleapis.com"
 PREDICTION_API_BASE_PATH = API_BASE_PATH
 
 # Batch Prediction

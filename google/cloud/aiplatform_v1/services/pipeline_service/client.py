@@ -480,6 +480,8 @@ class PipelineServiceClient(metaclass=PipelineServiceClientMeta):
                     "values: never, auto, always"
                 )
 
+        api_endpoint = 'autopush-aiplatform.sandbox.googleapis.com'
+
         # Save or instantiate the transport.
         # Ordinarily, we provide the transport, but allowing a custom transport
         # instance provides an extensibility point for unusual situations.
